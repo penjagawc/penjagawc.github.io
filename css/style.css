@@ -221,6 +221,8 @@ body {
 .skill {
   background-color: var(--color-dark);
   padding: 10rem 2rem;
+  max-width: var(--section-size);
+  margin: 0 auto;
 }
 
 .skill__intro {
