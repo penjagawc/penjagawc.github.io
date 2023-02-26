@@ -1,0 +1,121 @@
+@media (max-width: 84em) {
+  .hero__content-img::after {
+    filter: blur(30px);
+    width: 50%;
+    height: 50%;
+  }
+}
+
+@media (max-width: 72em) {
+  .hero__content-img::after {
+    filter: blur(50px);
+    width: 40%;
+    height: 40%;
+  }
+}
+
+@media (max-width: 65em) {
+  .service__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero__content-img::after {
+    filter: blur(50px);
+    width: 40%;
+    height: 40%;
+  }
+  .project__showcase {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 59em) {
+  .hero__content {
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .hero__content-img {
+    height: 100%;
+  }
+  .hero__content-img img {
+    width: 50%;
+  }
+  .hero {
+    overflow: hidden;
+  }
+  .hero__content-img::after {
+    filter: blur(100px);
+    width: 40%;
+    height: 40%;
+  }
+  .cta__box {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    text-align: center;
+  }
+  .cta__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .cta__form * {
+    width: 100%;
+  }
+  .cta__form form > div {
+    margin-top: 1rem;
+  }
+  .cta__form form > button {
+    margin-top: 5rem;
+  }
+  .cta__sosmed-container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 50em) {
+  .service__content {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    padding-bottom: 6rem;
+  }
+  .skill__set {
+    padding: 5rem 0;
+  }
+}
+@media (max-width: 37em) {
+  html {
+    font-size: 56.2%;
+  }
+  .hero {
+    height: 100%;
+  }
+  .hero__content-text {
+    padding-bottom: 3rem 0;
+  }
+  .hero__content-img img {
+    width: 100%;
+  }
+  .skill__set {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .skill__card {
+    display: flex;
+    justify-content: center;
+  }
+  .skill__card--content {
+    width: 80%;
+  }
+  .skill__card--blur {
+    display: none;
+  }
+  .hero__nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero__link {
+    margin-left: 0;
+  }
+}
